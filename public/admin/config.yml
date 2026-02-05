@@ -2,7 +2,7 @@ backend:
   name: github
   repo: cogneuro-lab/cogneuro-site
   branch: main
-  base_url: https://REPLACE_WITH_OAUTH_PROVIDER_DOMAIN
+  base_url: https://cogneuro-cms-oauth.vercel.app
   auth_endpoint: auth
 
 media_folder: "public/uploads"
