@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: cogneuro-lab/cogneuro-site
+  repo: taegang00/cogneuro-site
   branch: main
   base_url: https://cogneuro-cms-oauth.vercel.app
   auth_endpoint: auth
