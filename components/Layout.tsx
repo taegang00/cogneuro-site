@@ -10,8 +10,8 @@ export default function Layout({ children }: { children: ReactNode }) {
           <Image
             src="/cnlab-logo.png"
             alt="Cognitive Neuropsychology Laboratory (CNLab) logo"
-            width={90}
-            height={90}
+            width={88}
+            height={88}
             priority
           />
           <div>
