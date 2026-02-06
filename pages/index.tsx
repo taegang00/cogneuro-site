@@ -22,7 +22,6 @@ export default function Home() {
 
       <div className="note">
         <div className="muted">
-          관리자 페이지: <code>/admin</code>
         </div>
       </div>
     </Layout>
