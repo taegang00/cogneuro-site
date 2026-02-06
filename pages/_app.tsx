@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <title>CNLab | Cognitive Neuropsychology Laboratory</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
