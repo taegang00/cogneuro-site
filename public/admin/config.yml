@@ -100,3 +100,19 @@ collections:
               - { label: "Year", name: "year", widget: "number" }
               - { label: "Location (EN)", name: "locationEn", widget: "string", required: false }
               - { label: "Link", name: "link", widget: "string", required: false }
+
+  - name: "news"
+    label: "News"
+    format: "json"
+    files:
+      - name: "news"
+        label: "News Items"
+        file: "content/news.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "string", hint: "e.g., 2026-02-06" }
+              - { label: "Content", name: "content", widget: "text" }
