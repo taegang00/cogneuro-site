@@ -14,6 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           <Link href="/people">People</Link>
           <Link href="/research">Research</Link>
           <Link href="/publications">Publications</Link>
+          <Link href="/news">News</Link>
         </nav>
       </header>
       <main className="main">{children}</main>
